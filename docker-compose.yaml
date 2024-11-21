@@ -20,3 +20,4 @@ volumes:
 
 networks:
   siview_net:
+    driver: external
