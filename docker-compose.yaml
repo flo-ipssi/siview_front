@@ -3,23 +3,20 @@ version: "3.8"
 services:
 
   front:
-    container_name: my_frontend
+    container_name: front
     image: node:lts
     working_dir: /var/www/html/app/
     entrypoint: /bin/bash
     expose:
       - 8080:8080
     tty: true
-    depends_on:
-      - back
     volumes:
       - ./front:/var/www/html/app
     networks:
       - siview_net
-      
+
 volumes:
   db_data:
-  
+
 networks:
   siview_net:
-    driver: bridge
