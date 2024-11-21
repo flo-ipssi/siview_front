@@ -13,7 +13,8 @@ Ce projet représente la partie frontend de l'application, utilisant Vue 3. Il i
 
 1. **Cloner le Dépôt**
    ```bash
-   git clone https://github.com/flo-ipssi/siview_front.git
+   git clone https://github.com/flo-ipssi/siview_front
+   cd siview_front
 
 2. **Démarrer le Service Frontend** Lancez le conteneur avec Docker Compose :
    ```bash
